@@ -22,7 +22,7 @@ const Home = () => {
     fetchData()
   }, [value])
 
-  console.log(arr)
+  console.log(arr);
 
 
   const handleSearch =(e)=>{
