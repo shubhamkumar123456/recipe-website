@@ -34,13 +34,13 @@ const Home = () => {
   console.log(value)
   return (
     <div className="container m-auto mt-3">
-      <div className="col-md-4 m-auto">
+      <div className="col-md-4 m-auto ">
         <form className="d-flex" role="search">
           <input ref={searchRef} className="form-control outline-primary me-2" type="search" placeholder="Search" aria-label="Search" />
           <button onClick={handleSearch} className="btn btn-success" type="submit">Search</button>
         </form>
       </div>
-      <div className='row'>
+      <div className='row d-flex justify-content-center'>
         {arr?.map((ele) => {
 
           return <div key={ele.recipe.image} className="card m-3" style={{ width: '18rem' }}>
